@@ -1,0 +1,39 @@
+{
+  "name": "download-ccleaner",
+  "version": "0.0.0",
+  "description": "Download and extract the latest CCleaner",
+  "author": "martinvd",
+  "license": "MIT",
+  "bin": {
+    "downloadcc": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "download",
+    "extract",
+    "ccleaner"
+  ],
+  "dependencies": {
+    "download": "^5.0.2",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "del": "^2.2.2",
+    "execa": "^0.4.0",
+    "path-exists": "^3.0.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true
+  }
+}
