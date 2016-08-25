@@ -1,6 +1,6 @@
 {
   "name": "download-ccleaner",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Download and extract the latest CCleaner",
   "author": "martinvd",
   "license": "MIT",
