@@ -11,12 +11,12 @@ function exists(folder) {
 }
 
 test('Default folder', async t => {
-  await execa('./cli.js');
+  await execa('node', ['cli.js']);
   t.true(await exists(defaultFolder));
 });
 
 test('Custom folder', async t => {
-  await execa('./cli.js', [customFolder]);
+  await execa('node', ['cli.js', customFolder]);
   t.true(await exists(customFolder));
 });
 
