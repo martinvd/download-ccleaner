@@ -2,8 +2,13 @@
   "name": "download-ccleaner",
   "version": "0.1.1",
   "description": "Download and extract the latest CCleaner",
-  "author": "martinvd",
   "license": "MIT",
+  "repository": "martinvd/download-ccleaner",
+  "author": {
+    "name": "Martin van Driel",
+    "email": "martinvd@gmail.com",
+    "url": "http://martinvandriel.com"
+  },
   "bin": {
     "downloadcc": "cli.js"
   },
